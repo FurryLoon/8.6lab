@@ -1,4 +1,8 @@
-﻿#include <iostream>
+//Задание 1
+
+//Правильно использована формула.
+//В расчётах используются переменные типа float.
+#include <iostream>
 #include <cmath>
 
 int main()	{
