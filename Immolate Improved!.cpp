@@ -4,7 +4,7 @@
 //Мощность удара считается с учётом сопротивляемости.
 #include <iostream>
 #include <string>
-float pivo()
+float pivo() //проверка на ввод
 {
 	setlocale(LC_ALL, "Russian");
 	{
