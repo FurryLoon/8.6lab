@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 
-float pivo()
+float pivo() //проверка на ввод
 {
 	setlocale(LC_ALL, "Russian");
 	{
