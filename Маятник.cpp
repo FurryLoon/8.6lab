@@ -1,4 +1,4 @@
-﻿//Задание 6. Маятник
+//Задание 6. Маятник
 
 //Программа правильно считает количество затуханий.
 //Цикл не бесконечный.
@@ -33,7 +33,7 @@ int main()  {
     {
         std::cout << "Введите при каких колебаниях маятник можно считать остановившимся: ";
         std::cin >> oscillationcomplete;
-        if (std::cin.fail() || std::cin.peek() != '\n' || oscillation < 0||oscillationcomplete>oscillation) {
+        if (std::cin.fail() || std::cin.peek() != '\n' || oscillationcomplete < 0||oscillationcomplete>oscillation) {
 
             system("cls");
             std::cerr << "Ошибка ввода попробуйте ещё раз\n";
@@ -56,7 +56,7 @@ int main()  {
         i++;
     }
 
-    std::cout << "Через " << i << " качаний маятника, маятник сам остановится"<<"\n";
+    std::cout << "Через " << i << " качаний маятника, маятник можно считать остановившимся"<<"\n";
     std::cout << "На амплитуде в: " << oscillation <<"\n";
     
 }
