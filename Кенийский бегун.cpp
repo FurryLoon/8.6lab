@@ -1,4 +1,4 @@
-﻿//Задание 5. Кенийский бегун
+//Задание 5. Кенийский бегун
 
 //Важно, чтобы время среднего темпа было выведено в формате «минуты и секунды», как в примере.
 #include <iostream>
@@ -48,7 +48,7 @@ int main() {
         } 
         general += second;
 	}
-    minutes = general / 6 / 60;
-    second = general / 6 - (minutes*60);
+    minutes = general / kilometers / 60;
+    second = general / kilometers - (minutes*60);
     std::cout << "Твой средний темп за тренировку: " << minutes << " минуты " << std::round(second) << " секунды.";
 }
